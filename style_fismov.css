@@ -106,8 +106,9 @@ input[type="number"].invalid {
     max-width: 500px;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
     text-align: center;
-    transform: translateX(70%);
-    margin-top: 20%;
+    left: 50%;
+    position: fixed;
+    transform: translateX(-50%);
 }
 
 .popup-close-btn {
